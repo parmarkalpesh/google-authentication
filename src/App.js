@@ -53,6 +53,19 @@ function App() {
             login With Google
           </button>
         )}
+        <footer>
+          <p>
+            &copy; All rights reserved | This template is made with{" "}
+            <i className="icon-heart color-danger" aria-hidden="true"></i> by{" "}
+            <a
+              href="https://madhav-infotech.vercel.app/"
+              target="_blank"
+              style={{ color: "red" }}
+            >
+              MadhavInfotech.
+            </a>
+          </p>
+        </footer>
       </header>
     </div>
   );
