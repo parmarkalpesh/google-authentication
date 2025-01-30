@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {isAuthenticated && <h2>Hello {user.name}</h2>}
+        {isAuthenticated && <h2>Hello {user.name}</h2> }
         {isAuthenticated ? (
           <button
             onClick={(e) => logout()}
